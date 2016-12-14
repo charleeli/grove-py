@@ -1,0 +1,4 @@
+django
+django-redis
+django-celery
+pymysql
