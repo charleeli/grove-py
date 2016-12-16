@@ -1,0 +1,10 @@
+{% if role_list %}
+    <ul>
+    {% for role in role_list %}
+        <li><a href="/myapp/{{ role.user_id }}/">{{ role.user_name }}</a></li>
+    {% endfor %}
+    {{ value }}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}

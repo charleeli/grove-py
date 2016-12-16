@@ -1,4 +1,5 @@
 django
 django-redis
 django-celery
+fakeredis
 pymysql
